@@ -8,15 +8,12 @@
 
   <!-- Bootstrap 5 (provided) -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-
-  <!-- Provided theme — copy theme/theme.css into css/theme.css and the link below works as-is -->
   <link rel="stylesheet" href="css/theme.css" />
 </head>
 
 <body>
   <header class="site-header">
-    <!-- CONFIG: add bootstrap class here: navbar navbar-expand-lg navbar-dark bg-success -->
-    <nav class="">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
       <div class="container">
         <a class="navbar-brand" href="#">Evergreen Insurance</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain"
@@ -36,22 +33,19 @@
     </nav>
   </header>
   <main>
-    <!-- CONFIG: add bootstrap class here: py-5 text-center text-white bg-success -->
-    <section class="hero">
+    <section class="hero py-5 text-center text-white bg-success">
       <div class="container">
         <h1 class="display-5 fw-bold">Coverage that grows with you</h1>
         <p class="lead tagline">Get a personalized quote in under a minute.</p>
       </div>
     </section>
 
-    <!-- CONFIG: add bootstrap class here (outer section): container py-4 -->
-    <section class="quote-form-section">
+    <section class="quote-form-section container py-4">
       <div class="card shadow-sm">
         <div class="card-body">
           <h2 class="card-title">Get Your Quote</h2>
 
-          <!-- CONFIG: add bootstrap class here (form): row g-3 -->
-          <form id="quote-form" class="quote-form">
+          <form id="quote-form" class="quote-form row g-3">
             <div class="col-md-6">
               <label for="fullName" class="form-label">Full Name</label>
               <input type="text" id="fullName" class="form-control" placeholder="Jane Doe" required />
@@ -93,12 +87,10 @@
       </div>
     </section>
 
-    <!-- CONFIG: add bootstrap class here (outer section): container py-5 -->
-    <section class="testimonials">
+    <section class="testimonials container py-5">
       <h2 class="text-center mb-4">What our customers say</h2>
 
-      <!-- CONFIG: add bootstrap class here (inner row): row g-4 -->
-      <div class="testimonial-row">
+      <div class="testimonial-row row g-4">
         <div class="col-md-4">
           <div class="card h-100">
             <div class="card-body">
@@ -127,8 +119,7 @@
     </section>
   </main>
 
-  <!-- CONFIG: add bootstrap class here: py-3 text-center bg-dark text-light -->
-  <footer class="site-footer">
+  <footer class="site-footer py-3 text-center bg-dark text-light">
     <p class="mb-0">&copy; 2026 Evergreen Insurance. For training purposes only.</p>
   </footer>
 
