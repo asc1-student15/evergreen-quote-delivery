@@ -26,7 +26,7 @@ jobs:
 
       - name: Smoke-check required files
         run: |
-          test -f delivery-leadership-package/index.html
+          test -f index.html
           test -f delivery-leadership-package/css/theme.css
           test -f delivery-leadership-package/js/quote-calc.js
           echo "All required files present."
